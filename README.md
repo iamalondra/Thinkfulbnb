@@ -4,6 +4,9 @@ Thinkfulbnb is a vacation rental website that allows people to rent out their ho
 
 For this assignment, you will implement Thinkfulbnb's landing page in HTML & CSS.
 
+## Live link
+ https://iamalondra.github.io/Thinkfulbnb/
+
 ## Thinkfulbnb views
 
 The UX designer provided you with the following user interface mockups:
