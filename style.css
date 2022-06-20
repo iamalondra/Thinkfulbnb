@@ -97,6 +97,9 @@ header nav ul li a:hover {
   margin-bottom: 10px;
 }
 
+
+
+
 /* -------  Search Form ------- */
 form {
   border: 2px solid #ff385c;
@@ -144,6 +147,12 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (max-width: 400px) {
+  header .logo{
+    font-size: 35px !important;
+    font-size: 3vw; 
+  }
+}
 @media all and (min-width: 480px) {
 
   header{
@@ -181,6 +190,10 @@ footer p {
     max-width: 100%;
   }
 
+  form input,form select{
+    margin: 0px;
+  }
+
   .form-group{
     display:flex;
     flex-direction: column;
@@ -210,8 +223,9 @@ footer p {
    }
 
    #about img{
-    width: 300px;
-    padding: 20px;
+    width: 24.6%;
+    padding-right: 14px;
+    padding-bottom: 0px;
    } 
 
    #about div{
@@ -219,6 +233,10 @@ footer p {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+   }
+
+   #about p{
+    width: 50%;
    }
 
    #host{
@@ -236,6 +254,26 @@ footer p {
    #host img{
      width: 600px;
    }
+
+   /* ------- Ideas Section ------- */
+   #ideas img{
+     /* width: 600px; */
+   }
+
+   .container{
+    display:flex;
+    flex-wrap: wrap;
+   }
+
+    .row{
+      display: flex;
+    }
+
+    .column{
+      flex: 33.33%;
+      padding: 5px;
+    }
+   
 }
 
 
